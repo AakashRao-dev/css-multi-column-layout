@@ -1,0 +1,24 @@
+body {
+  padding: 2em;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #0ebac5;
+  color: #333333;
+}
+
+h2 {
+  font-family: 'cursive', sans-serif;
+  font-size: 1.6em;
+}
+
+.container {
+  /*  TO DEFINE NUMBER OF COLUMNS  */
+  column-count: 3;
+  /* TO SET THE WIDTH OF COLUMNS */
+  column-width: 200px;
+
+  padding: 1em;
+  background-color: #eef5ff;
+  border-radius: 10px;
+}

@@ -1,0 +1,30 @@
+body {
+  padding: 2em;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #0ebac5;
+  color: #333333;
+}
+
+h2 {
+  font-family: 'cursive', sans-serif;
+  font-size: 1.6em;
+}
+
+.container {
+  /* ...existing styles */
+  column-width: 250px;
+  /*  TO ADD THE SPACING BETWEEN COLUMNS  */
+  column-gap: 50px;
+
+  padding: 1em;
+  background-color: #eef5ff;
+  border-radius: 10px;
+}
+
+.container {
+  column-width: 300px;
+  /*  TO ADD THE SPACING BETWEEN COLUMNS  */
+  column-gap: 30px;
+}
