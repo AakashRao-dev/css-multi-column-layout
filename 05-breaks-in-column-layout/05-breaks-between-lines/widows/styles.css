@@ -1,0 +1,26 @@
+body {
+  padding: 2em;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #0ebac5;
+  color: #333333;
+}
+
+.container {
+  padding: 1em;
+  background-color: #eef5ff;
+  border-radius: 10px;
+  column-width: 250px;
+  column-gap: 50px;
+}
+
+h2 {
+  font-family: 'cursive', sans-serif;
+  font-size: 1.6em;
+}
+
+p {
+  /* Ensure at least 2 lines at the start of each column */
+  widows: 4;
+}
