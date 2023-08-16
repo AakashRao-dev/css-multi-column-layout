@@ -1,0 +1,31 @@
+body {
+  padding: 2em;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #0ebac5;
+  color: #333333;
+}
+
+h2 {
+  font-family: 'cursive', sans-serif;
+  font-size: 1.6em;
+  /* To avoid breaking after headings */
+  break-after: avoid;
+}
+
+.container {
+  padding: 1em;
+  border-radius: 10px;
+
+  column-width: 250px;
+  column-gap: 10px;
+}
+
+article {
+  border: 4px dashed tomato;
+  background-color: #eef5ff;
+  padding: 1rem;
+  /* For clear disctinction of content on new column */
+  break-after: column;
+}

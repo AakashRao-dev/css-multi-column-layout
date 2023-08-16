@@ -12,6 +12,12 @@ h2 {
   font-size: 1.6em;
 }
 
+blockquote {
+  border-left: 3px solid gray;
+  padding-left: 10px;
+  break-inside: avoid;
+}
+
 .container {
   padding: 1em;
   background-color: #eef5ff;
