@@ -1,0 +1,15 @@
+/* visible overflow */
+.multi-column-container {
+  column-count: 2;
+  column-gap: 20px;
+  width: 400px;
+  /* to hide the visile overflow */
+  overflow: hidden;
+}
+
+.multi-column-container {
+  column-count: 2;
+  column-gap: 20px;
+  width: 400px;
+  overflow: auto; /* or 'scroll' */
+}

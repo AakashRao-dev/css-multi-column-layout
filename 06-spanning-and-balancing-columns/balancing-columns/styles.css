@@ -1,0 +1,58 @@
+body {
+  padding: 2em;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #0ebac5;
+  color: #333333;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  break-inside: avoid;
+}
+
+h2 {
+  font-family: 'cursive', sans-serif;
+  font-size: 1.6em;
+}
+
+.container {
+  height: 700px;
+  padding: 1em;
+  background-color: #eef5ff;
+  border-radius: 10px;
+
+  column-width: 250px;
+  /* column-fill: auto; */
+  column-gap: 50px;
+}
+
+.wide-image {
+  width: 100%;
+  /* Set the width of images to 100% to adapt to column width */
+}
+
+.multi-column-container {
+  column-count: 2; /* Default number of columns */
+  column-width: 200px; /* Minimum column width */
+}
+
+@media (max-width: 600px) {
+  .multi-column-container {
+    column-count: 1; /* Switch to one column for smaller screens */
+  }
+}
+
+/* Apply multi-column layout only
+if the viewport height is greater than 400px */
+@media (min-height: 400px) {
+  .multi-column-container {
+    column-count: 2;
+    column-gap: 20px;
+    width: 400px;
+  }
+}
