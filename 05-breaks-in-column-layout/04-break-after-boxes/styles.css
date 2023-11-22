@@ -26,6 +26,9 @@ article {
   border: 4px dashed tomato;
   background-color: #eef5ff;
   padding: 1rem;
+
+  /* ...existing styles */
+
   /* For clear disctinction of content on new column */
   break-after: column;
 }

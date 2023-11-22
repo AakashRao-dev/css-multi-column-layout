@@ -10,6 +10,9 @@ body {
 h2 {
   font-family: 'cursive', sans-serif;
   font-size: 1.6em;
+  /* ...existing styles */
+
+  /* Adding breaks */
   break-before: column;
 }
 

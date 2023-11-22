@@ -20,6 +20,8 @@ h2 {
   font-size: 1.6em;
 }
 
+/* ...existing styles */
+
 p {
   /* Ensure at least 4 lines at the end of each column */
   orphans: 4;

@@ -13,3 +13,30 @@
   width: 400px;
   overflow: auto; /* or 'scroll' */
 }
+
+
+.wide-image {
+  width: 100%;
+  /* Set the width of images to 100% to adapt to column width */
+}
+
+.multi-column-container {
+  column-count: 2; /* Default number of columns */
+  column-width: 200px; /* Minimum column width */
+}
+
+@media (max-width: 600px) {
+  .multi-column-container {
+    column-count: 1; /* Switch to one column for smaller screens */
+  }
+}
+
+/* Apply multi-column layout only
+if the viewport height is greater than 400px */
+@media (min-height: 400px) {
+  .multi-column-container {
+    column-count: 2;
+    column-gap: 20px;
+    width: 400px;
+  }
+}

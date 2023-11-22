@@ -7,19 +7,6 @@ body {
   color: #333333;
 }
 
-img {
-  width: 100%;
-}
-
-figure {
-  break-inside: avoid;
-}
-
-h2 {
-  font-family: 'cursive', sans-serif;
-  font-size: 1.6em;
-}
-
 .container {
   padding: 1em;
   background-color: #eef5ff;
@@ -28,3 +15,20 @@ h2 {
   column-width: 350px;
   column-gap: 50px;
 }
+
+h2 {
+  font-family: 'cursive', sans-serif;
+  font-size: 1.6em;
+}
+
+img {
+  width: 100%;
+}
+
+/* ...existing styles */
+
+figure {
+  /* Adding Breaks */
+  break-inside: avoid;
+}
+

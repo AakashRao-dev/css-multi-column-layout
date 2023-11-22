@@ -11,7 +11,7 @@ body {
   font-size: 16px;
 }
 
-/* Column Layout */
+/* Main - Column Layout */
 article {
   max-width: 1200px;
   columns: 3 280px;
@@ -20,6 +20,8 @@ article {
   margin: 0 auto;
   padding: 2em;
 }
+
+/* OTHER STYLES - YOU CAN ADD OR CHANGE AS PER PERSONAL PREFERENCE */
 
 /* Typography */
 h1 {
@@ -33,7 +35,7 @@ h1 {
 
 h2 {
   color: #222;
-  font-size: clamp(18px, 5vw, 28px);
+  font-size: clamp(18px, 6vw, 28px);
   font-weight: 600;
   font-style: italic;
   line-height: 1.364em;

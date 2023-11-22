@@ -20,6 +20,8 @@ h2 {
   font-size: 1.6em;
 }
 
+/* ...existing styles */
+
 p {
   /* Ensure at least 2 lines at the start of each column */
   widows: 4;

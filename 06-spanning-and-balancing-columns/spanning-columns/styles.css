@@ -7,20 +7,6 @@ body {
   color: #333333;
 }
 
-h2 {
-  font-family: 'cursive', sans-serif;
-  font-size: 1.6em;
-}
-
-blockquote {
-  break-inside: avoid;
-  border: 3px solid gray;
-  padding-left: 10px;
-
-  /*  TO SPAN ACROSS MULTIPLE COLUMNS  */
-  column-span: all;
-}
-
 .container {
   padding: 1em;
   background-color: #eef5ff;
@@ -28,4 +14,19 @@ blockquote {
 
   column-width: 200px;
   column-gap: 50px;
+}
+
+h2 {
+  font-family: 'cursive', sans-serif;
+  font-size: 1.6em;
+}
+
+blockquote {
+  border: 3px solid gray;
+  padding-left: 10px;
+
+  /* ...existing styles */
+
+  /*  TO SPAN ACROSS MULTIPLE COLUMNS  */
+  column-span: all;
 }
